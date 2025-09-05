@@ -78,6 +78,12 @@ body{
     font-weight: 400;
     font-style: normal;
 }
+#navitem1, #navitem2, #navitem3, #navitem4, #navitem5, #navitem6, #navitem7{
+    font-size: 13px;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
 
 @keyframes buttanime{
@@ -86,5 +92,11 @@ body{
     }
     100%{
         background-color: #59006a;
+    }
+}
+
+@media(max-width: 581px){
+    #mainstuff{
+        height: 120vh;
     }
 }
